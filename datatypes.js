@@ -36,7 +36,8 @@ var person = null
 //undefined - represents null i.e. no value at all
 var person ;
 
-//symbols
+//symbols -It is a new data type introduced in the ES6 version of javascript. It is used to store an anonymous and unique value.
+var symbol1 = Symbol('symbol');
 
 
 
