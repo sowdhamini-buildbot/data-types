@@ -30,7 +30,7 @@ let age = 24
 const valueChecked= true
 
 
-//null - 	represents undefined value
+//null - represents undefined value
 var person = null
 
 //undefined - represents null i.e. no value at all
@@ -63,8 +63,7 @@ let fruits = ["Apple", "Orange", "Plum"];
 
 var personDetails = {
     name: "sowdhamini",
-    age:24,
-    
+    age:24,   
 }
 
 //function : function performs particular task
