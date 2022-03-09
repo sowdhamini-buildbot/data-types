@@ -64,15 +64,32 @@ console.log(typeof person)
 // 02) objects
 // 03) Functions
 
-//Arrays : Arrays in JavaScript are the data type used to store a list of values.The items in an array are enclosed within square brackets.
+//Arrays : Arrays in JavaScript are the data type used to store a list of values.array starts with [0] and end with [n] value.The items in an array are enclosed within square brackets.
 let fruits = ["Apple", "Orange", "Plum"];
 
-//objects :An object is an unordered collection of key-value pairs. Each key-value pair is called a property.
+//get array length
+console.log(fruits.length);
 
-var personDetails = {
-    name: "sowdhamini",
-    age:24,   
+//get array value
+console.log(fruits[1]);
+
+//change array element
+fruits[0]= "guva";
+console.log(fruits[0]);
+
+
+//objects :An object is an unordered collection of key-value pairs. Each key-value pair is called a property. object literal syntax {}.
+
+const person = {
+name: "raju", //key and value - property
+age:34  //key - age , 34- value
 }
+console.log(person);
+
+//delete the property
+delete person.age;
+console.log(person);
+
 
 //function : function performs particular task
 function hello(){
